@@ -1,13 +1,10 @@
-#!/bin/bash
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
+int main()
 
-	   
-
-	   puts("Programming is like building a multilingual puzzle\n");
-
-	      return 0;
+{
+	char Mystr[] = "Programming is like building a multilingual puzzle\n";
+        puts(Mystr);
+       	return 0;
 
 }
-
